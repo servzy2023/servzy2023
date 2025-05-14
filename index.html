@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servzy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #f4f4f4;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 15px 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AutoNest</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="parts.html">Parts</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Fast & Reliable Auto Parts Delivery</h2>
+      <p>Supplying mechanics and car owners with the right parts, right on time.</p>
+      <a href="parts.html" class="cta-button">Browse Parts</a>
+    </section>
+
+    <section class="features">
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li>🚚 Same-day delivery in select areas</li>
+        <li>🔧 Wide inventory of OEM and aftermarket parts</li>
+        <li>📞 Quick support via WhatsApp or call</li>
+        <li>✅ Trusted by 500+ mechanics and garages</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Servzy. All rights reserved.</p>
+    <p>Need help? <a href="contact.html">Contact us</a> or <a href="https://wa.me/yourwhatsapplink">Chat on WhatsApp</a>.</p>
+  </footer>
+</body>
+</html>
